@@ -1,0 +1,132 @@
+/* Set default font to all elements */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+	font-family: 'Open Sans';
+	font-size: 10px;
+	margin: 0;
+	padding: 0;
+}
+
+/*
+ * KaiOS UI Guidelines:
+ *
+ * - https://developer.kaiostech.com/design-guide/kaios-ui-kit
+ * - https://developer.kaiostech.com/design-guide/ui-component
+ */
+:root {
+	/* Grey Scale Colors */
+	--color-gs00: #ffffff;
+	--color-gs10: #e6e6e6;
+	--color-gs20: #cccccc;
+	--color-gs45: #8c8c8c;
+	--color-gs70: #6a6a6a;
+	--color-gs90: #323232;
+	--color-gs100: #000000;
+	
+	/* Primary Colors - Best for Highlighting selected UI element */
+	--color-purple: #873eff;
+	--color-pink: #f6529b;
+	--color-lime: #82c51b;
+	--color-cyan: #1cc1c4;
+	--color-blue: #0da1e1;
+	--color-orange: #ff8329;
+	--color-red: #f3203d;
+	
+	/* Mid-dark Colors - Generally used for the press effect */
+	--color-purple-mid-dark: #6c32cc;
+	--color-pink-mid-dark: #bf2392;
+	--color-lime-mid-dark: #6b9a23;
+	--color-cyan-mid-dark: #31979e;
+	--color-blue-mid-dark: #0a80b4;
+	--color-orange-mid-dark: #cc5310;
+	--color-red-mid-dark: #c21930;
+	
+	/* Dark Colors - Generally used for the header background */
+	--color-purple-dark: #320374;
+	--color-pink-dark: #49122c;
+	--color-lime-dark: #143a06;
+	--color-cyan-dark: #979797;
+	--color-blue-dark: #21407a;
+	--color-orange-dark: #391e0a;
+	--color-red-dark: #5c0600;
+	
+	/* Component Dimensions */
+	--header-height: 2.8rem;
+	--header-padding: 1rem;
+	
+	--tabs-height: 3rem;
+	--tabs-margin: 1rem;
+	--tabs-spacing: 1.5rem;
+	--tabs-line-overlap: 0.5rem;
+	--tabs-underline-width: 0.2rem;
+	
+	--softkeys-height: 3rem;
+	--softkeys-left-width: 7.2rem;
+	--softkeys-center-width: 7.6rem;
+	--softkeys-right-width: 7.2rem;
+	--softkeys-center-icon-width: 2.4rem;
+	--softkeys-margins: 0.5rem;
+	--softkeys-spacing: 0.5rem;
+	
+	--list-padding: 1rem;
+	--list-height: 6rem;
+	
+	--separator-height: 2.4rem;
+	--separator-padding: 1rem;
+	
+	--checkable-controls-margin: 0.5rem;
+	
+	--progress-height: 6rem;
+	--progress-spacing: 1rem;
+	--progress-padding: 1rem;
+	--progress-gap: 0.3rem;
+	
+	--slider-height: 6rem;
+	--slider-spacing: 1rem;
+	--slider-padding: 1rem;
+	--slider-gap: 0.3rem;
+	
+	--button-height: 3.6rem;
+	--button-margin: 1rem;
+	
+	--input-label-margin: 1rem;
+	--input-label-margin-bottom: 0.5rem;
+	--input-height: 3.6rem;
+	--input-margin: 1rem;
+	
+	--option-menu-height: 4.8rem;
+	--option-menu-padding: 1rem;
+	
+	--dialog-padding: 1rem;
+	
+	--notice-height: 6rem;
+	--notice-icon-width: 8.4rem;
+	
+	--toast-padding: 1rem;
+	--toast-shadow-height: 0.6rem;
+	
+	/* Typography */
+	--h1-font-size: 17px; /* Header */
+	--h1-font-family: light;
+	--h2-font-size: 17px; /* Header of body texts */
+	--h2-font-family: semi-bold;
+	--h3-font-size: 14px; /* Tabs */
+	--h3-font-family: regular;
+	--h4-font-size: 14px; /* Seperator */
+	--h4-font-family: regular;
+	--h5-font-size: 14px; /* Softkeys */
+	--h5-font-family: semi-bold;
+	--list-pri-font-size: 17px; /* Primary informaiton */
+	--list-pri-font-family: regular;
+	--list-sec-font-size: 14px; /* Secondary information */
+	--list-sec-font-family: regular;
+	--list-ter-font-size: 12px; /* Tertiary information */
+	--list-ter-font-family: regular;
+	--p-ul-font-size: 17px; /* Body texts */
+	--p-ul-font-family: regular;
+	--link-font-size: 17px; /* Text for hyperlink */
+	--link-font-family: bold;
+	--btn-font-size: 17px; /* Text for Button */
+	--btn-font-family: regular;
+}
