@@ -1,0 +1,24 @@
+{
+	"name": "kaios-ui-toolkit",
+	"version": "0.0.1",
+	"description": "Basic example of the KaiOS UI Toolkit for ReactJS",
+	"launch_path": "/public/index.html",
+	"icons": {
+		"16": "/icons/icon16x16.png",
+		"48": "/icons/icon48x48.png",
+		"60": "/icons/icon60x60.png",
+		"128": "/icons/icon128x128.png"
+	},
+	"developer": {
+		"name": "Andreas Schickedanz",
+		"url": "https://bornageek.com"
+	},
+	"locales": {
+		"en-US": {
+			"name": "KaiOS UI Toolkit",
+			"subtitle": "Quick UIs for KaiOS",
+			"description": "Quickly build complex UIs for KaiOS"
+		}
+	},
+"default_locale": "en-US"
+}
