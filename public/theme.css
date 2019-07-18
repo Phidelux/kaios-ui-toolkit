@@ -13,6 +13,8 @@
  *
  * - https://developer.kaiostech.com/design-guide/kaios-ui-kit
  * - https://developer.kaiostech.com/design-guide/ui-component
+ *
+ * HINT: 1rem equals 10 pixels
  */
 :root {
 	/* Grey Scale Colors */
@@ -107,26 +109,37 @@
 	--toast-shadow-height: 0.6rem;
 	
 	/* Typography */
-	--h1-font-size: 17px; /* Header */
+	--h1-font-size: 1.7rem; /* Header */
 	--h1-font-family: light;
-	--h2-font-size: 17px; /* Header of body texts */
+	--h1-font-weight: 300;
+	--h2-font-size: 1.7rem; /* Header of body texts */
 	--h2-font-family: semi-bold;
-	--h3-font-size: 14px; /* Tabs */
+	--h2-font-weight: 600;
+	--h3-font-size: 1.4rem; /* Tabs */
 	--h3-font-family: regular;
-	--h4-font-size: 14px; /* Seperator */
+	--h3-font-weight: 400;
+	--h4-font-size: 1.4rem; /* Seperator */
 	--h4-font-family: regular;
-	--h5-font-size: 14px; /* Softkeys */
+	--h4-font-weight: 400;
+	--h5-font-size: 1.4rem; /* Softkeys */
 	--h5-font-family: semi-bold;
-	--list-pri-font-size: 17px; /* Primary informaiton */
+	--h5-font-weight: 600;
+	--list-pri-font-size: 1.7rem; /* Primary informaiton */
 	--list-pri-font-family: regular;
-	--list-sec-font-size: 14px; /* Secondary information */
+	--list-pri-font-weight: 400;
+	--list-sec-font-size: 1.4rem; /* Secondary information */
 	--list-sec-font-family: regular;
-	--list-ter-font-size: 12px; /* Tertiary information */
+	--list-sec-font-weight: 400;
+	--list-ter-font-size: 1.2rem; /* Tertiary information */
 	--list-ter-font-family: regular;
-	--p-ul-font-size: 17px; /* Body texts */
+	--list-ter-font-weight: 400;
+	--p-ul-font-size: 1.7rem; /* Body texts */
 	--p-ul-font-family: regular;
-	--link-font-size: 17px; /* Text for hyperlink */
+	--p-ul-font-weight: 400;
+	--link-font-size: 1.7rem; /* Text for hyperlink */
 	--link-font-family: bold;
-	--btn-font-size: 17px; /* Text for Button */
+	--link-font-weight: 700;
+	--btn-font-size: 1.7rem; /* Text for Button */
 	--btn-font-family: regular;
+	--btn-font-weight: 400;
 }
