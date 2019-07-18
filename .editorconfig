@@ -1,0 +1,15 @@
+# https://editorconfig.org/
+
+# Top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+# Character set
+charset = utf-8
+
+# Tab style
+indent_style = tab
