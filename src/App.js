@@ -1,9 +1,12 @@
 import React from "react"
 
+import Header from "./Header"
+
 const App = () => {
-	console.log("Hello World!");
 	return (
-		<h1>Hello React!</h1>
+		<div className="app">
+			<Header title="KaiOS UI Example" />
+		</div>
 	)
 }
 
