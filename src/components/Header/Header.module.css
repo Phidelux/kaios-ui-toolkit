@@ -1,0 +1,12 @@
+@import '../../theme.css';
+
+.app_header {
+	padding: 0 var(--header-padding);
+	line-height: var(--header-height);
+	text-align: center;
+	color: var(--color-gs00);
+	background-color: var(--color-cyan-dark);
+	font-family: var(--font-name), var(--h1-font-family);
+	font-size: var(--h1-font-size);
+	font-weight: var(--h1-font-weight);
+}
