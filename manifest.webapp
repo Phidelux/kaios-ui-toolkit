@@ -2,6 +2,7 @@
 	"name": "kaios-ui-toolkit",
 	"version": "0.0.1",
 	"description": "Basic example of the KaiOS UI Toolkit for ReactJS",
+	"type": "web",
 	"launch_path": "/public/index.html",
 	"icons": {
 		"16": "/icons/icon16x16.png",
@@ -20,5 +21,5 @@
 			"description": "Quickly build complex UIs for KaiOS"
 		}
 	},
-"default_locale": "en-US"
+	"default_locale": "en-US"
 }
