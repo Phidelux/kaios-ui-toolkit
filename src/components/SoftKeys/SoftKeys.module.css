@@ -1,0 +1,45 @@
+@import '../../theme.css';
+
+.softkeys {
+	width: 100%;
+	line-height: var(--softkeys-height);
+	color: var(--softkey-color);
+	font-weight: var(--softkey-font-size);
+	font-family: var(--font-name), var(--h5-font-family);
+	background: var(--softkey-background);
+	white-space: nowrap;
+	display: flex;
+	flex-shrink: 0;
+	box-sizing: border-box;
+	margin-top: auto;
+	position: absolute;
+	bottom: 0;
+}
+
+.left, .right {
+	overflow: hidden;
+	letter-spacing: -0.5px;
+	box-sizing: border-box;
+	text-overflow: ellipsis;
+	text-transform: capitalize;
+}
+
+.left {
+	width: 100%;
+	padding: 0 var(--softkeys-spacing);
+	text-align: left;
+}
+
+.center {
+	width: 100%;
+	text-transform: uppercase;
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.right {
+	width: 100%;
+	padding: 0 var(--softkeys-spacing);
+	text-align: right;
+}
