@@ -1,0 +1,17 @@
+@import './theme.css';
+
+/* KaiOS portrait devices (240x320) */
+@media only screen and (orientation : portrait) {
+	/* styles */
+}
+  
+/* KaiOS landscape devices (320x240) */
+@media screen and (orientation: landscape) {
+	/* styles */
+}
+
+html, body {
+	padding: 0;
+	margin: 0;
+	border: none;
+}

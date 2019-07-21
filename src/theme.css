@@ -143,4 +143,9 @@
 	--btn-font-size: 1.7rem; /* Text for Button */
 	--btn-font-family: regular;
 	--btn-font-weight: 400;
+
+	/* Softkey defaults */
+	--softkey-color: var(--color-gs20);
+	--softkey-background: var(--color-gs100);
+	--softkey-font-size: var(--h5-font-size);
 }
