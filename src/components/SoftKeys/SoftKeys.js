@@ -9,7 +9,7 @@ const SoftKey = (props) => {
 	}
 
 	return (
-		<div
+		<button
 			onClick={event => {
 				event.preventDefault();
 				props.onClick();
@@ -18,7 +18,7 @@ const SoftKey = (props) => {
 
 			{props.icon ? <i class={props.icon}></i> : null}
 			{props.text}
-		</div>
+		</button>
 	);
 };
 

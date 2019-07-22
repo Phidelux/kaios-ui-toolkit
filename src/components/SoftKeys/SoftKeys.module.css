@@ -17,6 +17,11 @@
 	bottom: 0;
 }
 
+.left, .center, .right {
+	all: unset;
+	cursor: pointer;
+}
+
 .left, .right {
 	overflow: hidden;
 	letter-spacing: -0.5px;
