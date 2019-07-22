@@ -10,8 +10,11 @@ const App = () => {
 
 			<SoftKeys
 				leftText="Add"
+				onLeftClicked={() => console.log("left")}
 				enterText="Play"
-				rightText="Options" />
+				onEnterClicked={() => console.log("enter")}
+				rightText="Options"
+				onRightClicked={() => console.log("right")} />
 		</div>
 	)
 }
