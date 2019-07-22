@@ -6,7 +6,8 @@
 	text-align: center;
 	color: var(--color-gs00);
 	background-color: var(--color-cyan-dark);
-	font-family: var(--font-name), var(--h1-font-family);
+	font-family: var(--font-name);
+	font-style: var(--h1-font-style);
 	font-size: var(--h1-font-size);
 	font-weight: var(--h1-font-weight);
 }

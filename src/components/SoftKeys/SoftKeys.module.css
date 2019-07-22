@@ -5,7 +5,8 @@
 	line-height: var(--softkeys-height);
 	color: var(--softkey-color);
 	font-weight: var(--softkey-font-size);
-	font-family: var(--font-name), var(--h5-font-family);
+	font-family: var(--font-name);
+	font-style: var(--h5-font-style);
 	background: var(--softkey-background);
 	white-space: nowrap;
 	display: flex;

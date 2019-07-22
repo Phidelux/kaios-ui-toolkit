@@ -111,37 +111,37 @@
 	/* Typography */
 	--font-name: 'Open Sans';
 	--h1-font-size: 1.7rem; /* Header */
-	--h1-font-family: light;
+	--h1-font-style: light;
 	--h1-font-weight: 300;
 	--h2-font-size: 1.7rem; /* Header of body texts */
-	--h2-font-family: semi-bold;
+	--h2-font-style: semi-bold;
 	--h2-font-weight: 600;
 	--h3-font-size: 1.4rem; /* Tabs */
-	--h3-font-family: regular;
+	--h3-font-style: regular;
 	--h3-font-weight: 400;
 	--h4-font-size: 1.4rem; /* Seperator */
-	--h4-font-family: regular;
+	--h4-font-style: regular;
 	--h4-font-weight: 400;
 	--h5-font-size: 1.4rem; /* Softkeys */
-	--h5-font-family: semi-bold;
+	--h5-font-style: semi-bold;
 	--h5-font-weight: 600;
 	--list-pri-font-size: 1.7rem; /* Primary informaiton */
-	--list-pri-font-family: regular;
+	--list-pri-font-style: regular;
 	--list-pri-font-weight: 400;
 	--list-sec-font-size: 1.4rem; /* Secondary information */
-	--list-sec-font-family: regular;
+	--list-sec-font-style: regular;
 	--list-sec-font-weight: 400;
 	--list-ter-font-size: 1.2rem; /* Tertiary information */
-	--list-ter-font-family: regular;
+	--list-ter-font-style: regular;
 	--list-ter-font-weight: 400;
 	--p-ul-font-size: 1.7rem; /* Body texts */
-	--p-ul-font-family: regular;
+	--p-ul-font-style: regular;
 	--p-ul-font-weight: 400;
 	--link-font-size: 1.7rem; /* Text for hyperlink */
-	--link-font-family: bold;
+	--link-font-style: bold;
 	--link-font-weight: 700;
 	--btn-font-size: 1.7rem; /* Text for Button */
-	--btn-font-family: regular;
+	--btn-font-style: regular;
 	--btn-font-weight: 400;
 
 	/* Softkey defaults */
