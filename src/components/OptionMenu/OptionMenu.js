@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback }  from "react"
 import PropTypes from 'prop-types';
 
-import css from "./SoftKeys.module.css";
+import css from "./OptionMenu.module.css";
 
 const OptionMenu = (props) => {
 	const optionItems = props.children;

@@ -3,3 +3,6 @@ node_modules/
 
 # No npm package lock
 package-lock.json
+
+# No npm build directory
+build/
