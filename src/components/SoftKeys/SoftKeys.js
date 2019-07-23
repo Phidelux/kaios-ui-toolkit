@@ -26,6 +26,7 @@ const SoftKey = React.memo(
 
 // HINT: This component should not handle rerendering on its own.
 const SoftKeys = (props) => {
+	// Callback is only updated if props changes
 	const onKeyPressed = useCallback(
 		({key}) => {
 			switch(key) {
@@ -41,12 +42,17 @@ const SoftKeys = (props) => {
 				default:
 					break;
 			}
-		}
+		},
+		[props]
 	);
 
+	// Called on component load and update of onKeyPressed callback
 	useEffect(
 		() => {
+			// Register the event handler
 			document.addEventListener('keydown', onKeyPressed);
+
+			// Remove listener on cleanup
 			return () => document.removeEventListener('keydown', onKeyPressed);
 		}, [onKeyPressed]
 	);
