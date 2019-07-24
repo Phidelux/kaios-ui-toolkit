@@ -148,4 +148,15 @@
 	--softkey-color: var(--color-gs20);
 	--softkey-background: var(--color-gs100);
 	--softkey-font-size: var(--h5-font-size);
+
+	/* Optionmenu defaults */
+	--option-menu-color: var(--color-gs100);
+	--option-menu-color-focused: var(--color-gs00);
+	--option-menu-background: var(--color-gs00);
+	--option-menu-background-focused: var(--color-cyan);
+	--option-menu-header-color: var(--color-gs100);
+	--option-menu-header-background: var(--color-gs20);
+	--option-menu-font-size: var(--list-pri-font-size);
+	--option-menu-font-style: var(--list-pri-font-style);
+	--option-menu-font-weight: var(--list-pri-font-weight);
 }

@@ -7,7 +7,7 @@ import css from "./OptionMenu.module.css";
 export const OptionItem = React.forwardRef(
 	(props, ref) => {
 		const onFocusChange = props.onFocusChange;
-		const [isFocused, setFocus] = useState(false);
+		const [, setFocus] = useState(false);
 
 		const handleFocusChange = (newFocus) => {
 			setFocus(newFocus);
@@ -22,8 +22,7 @@ export const OptionItem = React.forwardRef(
 				ref={ref}
 				onFocus={() => handleFocusChange(true)}
 				onBlur={() => handleFocusChange(false)}
-				style={{ backgroundColor: isFocused ? 'red' : 'white' }}
-				className={props.className ? props.className : null}>
+				className={css.optionmenu_item}>
 				{props.text}
 			</div>
 		);
@@ -110,7 +109,7 @@ const OptionMenu = (props) => {
 
 	return (
 		<div className={css.optionmenu}>
-			<h4>{props.header}</h4>
+			<header>{props.header}</header>
 			<nav>
 				{ renderedItems }
 			</nav>

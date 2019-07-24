@@ -1,0 +1,34 @@
+@import '../../theme.css';
+
+.optionmenu {
+	width: 100%;
+}
+
+.optionmenu header {
+	text-align: center;
+	padding: 0 var(--separator-padding);
+	line-height: var(--separator-height);
+	color: var(--option-menu-header-color);
+	background: var(--option-menu-header-background);
+	font-family: var(--font-name);
+	font-size: var(--h4-font-size);
+	font-weight: var(--h4-font-weight);
+	font-style: var(--h4-font-style);
+}
+
+.optionmenu_item {
+	line-height: var(--option-menu-height);
+	color: var(--option-menu-color);
+	font-family: var(--font-name);
+	font-size: var(--option-menu-font-size);
+	font-weight: var(--option-menu-font-weight);
+	font-style: var(--option-menu-font-style);
+	background: var(--option-menu-background);
+	padding: 0 var(--option-menu-padding);
+}
+
+.optionmenu_item:focus {
+	color: var(--option-menu-color-focused);
+	background: var(--option-menu-background-focused);
+	text-decoration: none;
+}
